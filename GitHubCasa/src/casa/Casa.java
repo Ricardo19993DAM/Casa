@@ -16,7 +16,7 @@ public class Casa {
 	public void setColor(String color) {
 		this.color = color;
 	}
-	//Construntor
+	//Construntor  asdasdsadasd
 	public Casa(float metros, String color, int piso) {
 		super();
 		this.metros = metros;
