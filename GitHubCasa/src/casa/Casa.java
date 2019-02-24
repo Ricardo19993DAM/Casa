@@ -1,9 +1,10 @@
 package casa;
+
 public class Casa {
 	protected float metros;
 	protected String color;
 	protected int piso;
-	//hola esto es desde el GitHUB
+
 	public float getMetros() {
 		return metros;
 	}
@@ -15,6 +16,13 @@ public class Casa {
 	}
 	public void setColor(String color) {
 		this.color = color;
+	} 
+	//Construntor  asdasdsadasd asdasd
+	public Casa(float metros, String color, int piso) {
+		super();
+		this.metros = metros;
+		this.color = color;
+		this.piso = piso;
 	}
 	public int getPiso() {
 		return piso;
@@ -22,4 +30,5 @@ public class Casa {
 	public void setPiso(int piso) {
 		this.piso = piso;
 	}
+
 }
