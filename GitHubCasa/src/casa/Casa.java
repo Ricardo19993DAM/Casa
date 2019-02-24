@@ -4,6 +4,7 @@ public class Casa {
 	protected float metros;
 	protected String color;
 	protected int piso;
+<<<<<<< HEAD
 	public float getMetros() {
 		return metros;
 	}
@@ -29,4 +30,6 @@ public class Casa {
 	public void setPiso(int piso) {
 		this.piso = piso;
 	}
+=======
+>>>>>>> branch '04' of https://github.com/Ricardo19993DAM/Casa.git
 }
