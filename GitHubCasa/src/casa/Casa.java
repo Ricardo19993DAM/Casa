@@ -3,7 +3,7 @@ public class Casa {
 	protected float metros;
 	protected String color;
 	protected int piso;
-
+	//hola esto es desde el GitHUB
 	public float getMetros() {
 		return metros;
 	}
